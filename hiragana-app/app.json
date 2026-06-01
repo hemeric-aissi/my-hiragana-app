@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Hiragana Trainer",
+    "slug": "hiragana-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f0f"
+      },
+      "package": "com.hmrica.hiraganaapp"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hmrica.hiraganaapp"
+    },
+    "scheme": "hiragana-app",
+    "platforms": ["android", "ios"]
+  }
+}
